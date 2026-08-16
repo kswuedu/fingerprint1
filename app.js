@@ -2157,26 +2157,27 @@ html, body {
     justify-content: space-between;
     align-items: flex-end;
     gap: 10px;
-    padding: 0 0 3mm;
-    margin-bottom: 2mm;
+    padding: 0 0 4mm;
+    margin-bottom: 3mm;
     border-bottom: 2px solid ${accent};
 }
 
 .pdf-title .brand {
-    font-size: 7pt;
+    font-size: 8pt;
     font-weight: 800;
     letter-spacing: 1.4pt;
     color: ${accentDeep};
 }
 
 .pdf-title h1 {
-    margin: 1mm 0 0;
-    font-size: 15pt;
+    margin: 1.5mm 0 0;
+    font-size: 17pt;
 }
 
 .pdf-participant {
-    font-size: 7pt;
-    color: #666;
+    font-size: 10.5pt;
+    font-weight: 800;
+    color: ${accentDeep};
     text-align: right;
 }
 
@@ -2194,52 +2195,52 @@ html, body {
     justify-content: space-between;
     align-items: flex-start;
     gap: 8px;
-    padding-bottom: 1.8mm;
+    padding-bottom: 2.5mm;
     border-bottom: 1.5px solid ${accent};
 }
 
 .report-head h2 {
-    margin: 0.5mm 0 0;
-    font-size: 10pt;
+    margin: 0.8mm 0 0;
+    font-size: 13pt;
 }
 
 .report-kicker {
-    font-size: 5pt;
+    font-size: 7.5pt;
     font-weight: 800;
     letter-spacing: 1.3pt;
     color: ${accentDeep};
 }
 
 .report-mode-badge {
-    padding: 1mm 2mm;
+    padding: 1.5mm 3mm;
     border: 1px solid ${accent};
     border-radius: 99px;
     background: ${accentSoft};
     color: ${accentDeep};
-    font-size: 5pt;
+    font-size: 7.5pt;
     white-space: nowrap;
 }
 
 .report-section {
-    margin-top: 1.4mm;
-    padding: 1.7mm 2mm;
+    margin-top: 2.2mm;
+    padding: 2.8mm 3.2mm;
     border: 1px solid #e3e5e8;
-    border-radius: 1.8mm;
+    border-radius: 2mm;
     background: #fff;
     break-inside: avoid;
     page-break-inside: avoid;
 }
 
 .report-section h3 {
-    margin: 0 0 0.7mm;
+    margin: 0 0 1.2mm;
     color: ${accentDeep};
-    font-size: 6.1pt;
+    font-size: 9pt;
 }
 
 #coreSummary strong {
     display: block;
-    margin-bottom: 0.4mm;
-    font-size: 7.3pt;
+    margin-bottom: 0.8mm;
+    font-size: 10pt;
 }
 
 #coreSummary p,
@@ -2250,13 +2251,13 @@ html, body {
 .report-note {
     margin: 0;
     color: #555;
-    font-size: 4.5pt;
-    line-height: 1.17;
+    font-size: 8pt;
+    line-height: 1.4;
 }
 
 .report-grid {
     display: grid;
-    gap: 1mm;
+    gap: 2mm;
 }
 
 .report-grid.three {
@@ -2265,7 +2266,7 @@ html, body {
 
 .report-grid.two {
     grid-template-columns: repeat(2, minmax(0,1fr));
-    margin-top: 1.4mm;
+    margin-top: 2.2mm;
 }
 
 .report-grid.two > .report-section {
@@ -2273,101 +2274,101 @@ html, body {
 }
 
 .strength-card {
-    padding: 1.3mm;
-    border-radius: 1.5mm;
+    padding: 2.2mm;
+    border-radius: 2mm;
     background: ${accentSoft};
 }
 
 .rank-label {
     color: ${accentDeep};
-    font-size: 4.2pt;
+    font-size: 7pt;
     font-weight: 800;
 }
 
 .strength-card h4 {
-    margin: 0.3mm 0 0.5mm;
-    font-size: 5.4pt;
+    margin: 0.6mm 0 1mm;
+    font-size: 8.5pt;
 }
 
 .strength-card h4 span {
     float: right;
     color: #666;
-    font-size: 4.6pt;
+    font-size: 7.5pt;
 }
 
 .career-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6mm;
+    gap: 1.2mm;
 }
 
 .career-chips > span {
-    padding: 0.6mm 1.1mm;
+    padding: 1.1mm 2mm;
     border-radius: 99px;
     background: ${accentSoft};
     color: ${accentDeep};
-    font-size: 4.4pt;
+    font-size: 7.5pt;
 }
 
 .career-chips .report-note {
     flex-basis: 100%;
-    margin-top: 0.4mm;
+    margin-top: 0.8mm;
 }
 
 .compact-insight + .compact-insight,
 .insight-line + .insight-line {
-    margin-top: 0.6mm;
+    margin-top: 1.2mm;
 }
 
 .compact-insight b,
 .insight-line b {
-    font-size: 4.9pt;
+    font-size: 8pt;
 }
 
 .relationship-detail-card {
-    padding: 1.1mm;
+    padding: 2mm;
     border: 1px solid #e7e7e7;
-    border-radius: 1.4mm;
+    border-radius: 1.8mm;
     background: #fafafa;
     break-inside: avoid;
 }
 
 .relationship-detail-card + .relationship-detail-card {
-    margin-top: 0.7mm;
+    margin-top: 1.4mm;
 }
 
 .relationship-detail-title {
-    margin-bottom: 0.5mm;
+    margin-bottom: 1mm;
     color: ${accentDeep};
-    font-size: 5.3pt;
+    font-size: 8.5pt;
     font-weight: 800;
 }
 
 .relationship-detail-card > div:not(.relationship-detail-title) {
-    margin-top: 0.35mm;
+    margin-top: 0.8mm;
 }
 
 .relationship-detail-card b,
 .relationship-detail-card p,
 .relationship-phrase span {
-    font-size: 4.15pt;
-    line-height: 1.12;
+    font-size: 7.5pt;
+    line-height: 1.35;
 }
 
 .relationship-detail-card p {
-    margin: 0.15mm 0 0;
+    margin: 0.4mm 0 0;
     color: #555;
 }
 
 .relationship-phrase {
-    padding: 0.6mm;
-    border-radius: 1mm;
+    padding: 1.2mm;
+    border-radius: 1.4mm;
     background: ${accentSoft};
 }
 
 .relationship-phrase span {
     display: block;
-    margin-top: 0.2mm;
+    margin-top: 0.5mm;
     color: ${accentDeep};
     font-weight: 700;
 }
@@ -2375,15 +2376,15 @@ html, body {
 #allAreaAnalysis {
     display: grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
-    gap: 0.6mm 2.5mm;
+    gap: 1.2mm 4mm;
 }
 
 .area-head {
     display: flex;
     justify-content: space-between;
     gap: 4px;
-    margin-bottom: 0.3mm;
-    font-size: 4.3pt;
+    margin-bottom: 0.6mm;
+    font-size: 7.5pt;
 }
 
 .area-head span {
@@ -2391,7 +2392,7 @@ html, body {
 }
 
 .area-track {
-    height: 0.55mm;
+    height: 1mm;
     overflow: hidden;
     border-radius: 99px;
     background: #e9eaec;
@@ -2406,35 +2407,35 @@ html, body {
 .area-meaning-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
-    gap: 0.45mm 2.5mm;
+    gap: 1mm 4mm;
 }
 
 .area-meaning-grid > div {
     display: flex;
     flex-direction: column;
-    gap: 0.1mm;
-    padding-bottom: 0.35mm;
+    gap: 0.3mm;
+    padding-bottom: 0.8mm;
     border-bottom: 1px solid #eee;
 }
 
 .area-meaning-grid b {
-    font-size: 4.3pt;
+    font-size: 7.5pt;
 }
 
 .area-meaning-grid span {
     color: #666;
-    font-size: 4pt;
-    line-height: 1.1;
+    font-size: 7pt;
+    line-height: 1.3;
 }
 
 .report-disclaimer {
-    margin-top: 1mm;
-    padding: 0.8mm;
-    border-radius: 1mm;
+    margin-top: 2mm;
+    padding: 1.6mm;
+    border-radius: 1.6mm;
     background: ${accentSoft};
     color: ${accentDeep};
     text-align: center;
-    font-size: 4.1pt;
+    font-size: 7pt;
 }
 
 /* 결과지 내부에서 화면 전용으로 남아 있을 수 있는 요소 제거 */
