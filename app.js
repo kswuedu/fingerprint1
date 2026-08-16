@@ -11,7 +11,7 @@
 
 // GitHub Pages 같은 정적 사이트에서는 이 비밀번호가 소스코드에 포함됩니다.
 // 강한 보안 기능이 아니라 허용 사용자용 간단한 입장 제한 기능입니다.
-const ACCESS_PASSWORD = "finger1004";
+const ACCESS_PASSWORD = "1004";
 
 const passwordGate =
     document.getElementById("passwordGate");
